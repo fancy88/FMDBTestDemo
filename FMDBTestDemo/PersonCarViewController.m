@@ -68,12 +68,9 @@
         NSLog(@"car.id--%@,own_id--%@",car.car_id,car.own_id);
         [[DataBase sharedDataBase] deleteCar:car fromPerson:self.person];
         
-        
         self.carArray = [[DataBase sharedDataBase] getAllCarsFromPerson:self.person];
         
         [self.tableView reloadData];
-        
-        
     }
     
 }
