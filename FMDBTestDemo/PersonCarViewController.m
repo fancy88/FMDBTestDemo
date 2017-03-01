@@ -36,7 +36,7 @@
 }
 
 
-#pragma mark - UITableViewDelegate & UITableViewDataSource
+#pragma mark - UITableViewDelegate && UITableViewDataSource
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     return self.carArray.count;
@@ -72,7 +72,6 @@
         
         [self.tableView reloadData];
     }
-    
 }
 
 /*改变删除按钮的title*/
