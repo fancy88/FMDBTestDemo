@@ -13,7 +13,7 @@
 
 @interface PersonCarViewController ()<UITableViewDelegate, UITableViewDataSource>
 
-@property(nonatomic, strong) UITableView *tableView;
+@property(nonatomic, strong) UITableView    *tableView;
 @property(nonatomic, strong) NSMutableArray *carArray;
 
 @end
