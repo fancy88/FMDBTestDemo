@@ -30,7 +30,7 @@
     
     self.title = [NSString stringWithFormat:@"%@的所有车",self.person.name];
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(addCar)];
-    self.carArray = [[DataBase sharedDataBase ] getAllCarsFromPerson:self.person];
+    self.carArray = [[DataBase sharedDataBase] getAllCarsFromPerson:self.person];
 
     // Do any additional setup after loading the view.
 }
